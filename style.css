@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: #2c3e50;
+    padding: 1rem 0;
+}
+
+header .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero.professional {
+    background: linear-gradient(to bottom right, #3498db, #2ecc71);
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero .button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background 0.3s ease-in-out;
+}
+
+.hero .button:hover {
+    background: #c0392b;
+}
+
+/* Resume Section */
+.resume .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.resume .card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.resume .card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer Styles */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
